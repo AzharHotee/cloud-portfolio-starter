@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello from Azhar's Cloud Portfolio Starter!"
+    return "Hello from Azhar's Cloud Portfolio Starter!, Updated!"
 
 @app.route("/health")
 def health():
